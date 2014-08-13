@@ -1,4 +1,4 @@
-name = "Perl-Lint-Dump"
+name = "Perl-Lint-Reporter"
 # badges = ["travis"]
 authority="cpan:YTURTLE"
 

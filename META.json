@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Perl-Lint-Dump",
+   "name" : "Perl-Lint-Reporter",
    "no_index" : {
       "directory" : [
          "t",

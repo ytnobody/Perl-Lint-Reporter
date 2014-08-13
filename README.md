@@ -1,14 +1,14 @@
 # NAME
 
-Perl::Lint::Dump - It's new $module
+Perl::Lint::Reporter - It's new $module
 
 # SYNOPSIS
 
-    use Perl::Lint::Dump;
+    use Perl::Lint::Reporter;
 
 # DESCRIPTION
 
-Perl::Lint::Dump is ...
+Perl::Lint::Reporter is ...
 
 # LICENSE
 
