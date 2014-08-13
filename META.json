@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Output report from violations value of Perl::Lint",
    "author" : [
       "ytnobody <ytnobody@gmail.com>"
    ],
@@ -55,6 +55,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ytnobody/Perl-Lint-Reporter/issues"
+      },
+      "homepage" : "https://github.com/ytnobody/Perl-Lint-Reporter",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ytnobody/Perl-Lint-Reporter.git",
+         "web" : "https://github.com/ytnobody/Perl-Lint-Reporter"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:YTURTLE"
 }

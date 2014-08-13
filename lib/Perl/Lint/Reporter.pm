@@ -44,15 +44,33 @@ __END__
 
 =head1 NAME
 
-Perl::Lint::Reporter - It's new $module
+Perl::Lint::Reporter - Output report from violations value of Perl::Lint
 
 =head1 SYNOPSIS
 
+    use Perl::Lint qw/lint/;
     use Perl::Lint::Reporter;
+    
+    my $violations = lint(['path/to/script.pl', 'path/to/other/script.pl']);
+    report_violations($violations);
 
 =head1 DESCRIPTION
 
-Perl::Lint::Reporter is ...
+Perl::Lint::Reporter is a report formatter for violation value of Perl::Lint.
+
+=head1 EXAMPLE IMAGE
+
+=begin html
+
+<img src="http://i.gyazo.com/23068bb9942ff9a9700f0bcc6fb14cfb.png">
+
+=end html
+
+=head1 EXPORT
+
+=head2 report_violations($violations)
+
+Print a report about violations that is result of analysing by Perl::Lint.
 
 =head1 LICENSE
 
