@@ -42,11 +42,14 @@
       },
       "runtime" : {
          "requires" : {
+            "Term::ANSIColor" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
+            "Perl::Lint" : "0",
+            "Test::Differences" : "0",
             "Test::More" : "0.98"
          }
       }
